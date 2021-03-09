@@ -56,7 +56,6 @@ h1,
 h2,
 h3 {
   font-weight: 500;
-  /* margin: 1.5em; */
 }
 .container {
   max-width: 1200px;
@@ -66,9 +65,7 @@ h3 {
 
 .navbar .navitem a:hover {
   text-decoration: underline;
-  /* color: rgb(8, 200, 248); */
   transition: all 0.5s;
-  /* transform: scale(2, 2); */
 }
 
 .header .main {
@@ -101,7 +98,6 @@ h3 {
   letter-spacing: 0.1em;
 }
 .header .main a.btn:hover {
-  /* font-weight: 1.2em;*/
   font-size: 2.1rem;
   transform: scale(1.1);
   background: rgb(241, 233, 233);
@@ -115,6 +111,7 @@ h3 {
   height: 350px;
   margin-bottom: 10rem;
   box-shadow: rgba(0, 0, 0, 0.377) 0 0 20px 0;
+  overflow: hidden;
 }
 .row:hover img {
   transform: scale(1.1);
@@ -204,7 +201,6 @@ h3 {
   text-align: center;
   padding: 2rem;
   width: 100%;
-  /* height: 100px; */
 }
 
 .footer .socialmedialinks i {
